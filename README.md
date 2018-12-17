@@ -27,11 +27,15 @@ Rename all the files in the csvdata 📁 to be consumed by our script. Rename th
 ## 4, Coding the script
 
 Dive straight into coding the script.
-#Our work flow would be:
+* Our work flow would be:
+* 4.0. Place csvdata folder on desktop
 * 4.1. Create URL paths to our folder
 * 4.2. Read the files and extract their data one by one.
 * 4.3. Do something with extracted information
-* 4.4. Write to file the information
+* 4.4. Set up destination file name, path, and content
+* 4.5. Create an executable file
+* 4.6. Run the executable file with an argument (of how many files to analyze) 
+* 4.7. Write to destination file
 
 ```Swift
 
