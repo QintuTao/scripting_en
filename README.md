@@ -16,13 +16,13 @@ Nowadays we are moving away from keeping records on papers and we are facing new
 
 ## 2, Import Assets
 
-We need 1 folder. Please download <code>scvdata</code> (https://github.com/iosClassForBeginner/scripting_en) from the link. You can clone the whole project and just use this folder. 
+We need 1 folder. Please download <i>scvdata</i> 📁 (https://github.com/iosClassForBeginner/scripting_en) from the link. You can clone the whole project and just use this folder. 
 
   * <details><summary>You don't know how to import them? Check this out!</summary><div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/quiz_en/blob/master/demos/tutorial/assets.gif" /></div></details>
 
 ## 3, Massaging the data
 
-Rename all the files in the "csvdata" folder to be consumed by our script. Rename them "File1" ... "File12"
+Rename all the files in the csvdata 📁 to be consumed by our script. Rename them "File1" ... "File12"
 
 ## 4, Coding the script
 
