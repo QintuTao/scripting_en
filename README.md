@@ -45,7 +45,9 @@ let readWriteFolderName = "csvdata/"
 
 // Optional file name thats consistent between all files.
 let prefix = "File"
+let destinationFileName = "AllExpenses"
 let fileType = "csv"
+var destinationDirectory: URL?
 
 // Can fixate the file number argument to second argument too, for consistency
 let numberArgument = CommandLine.arguments.last
@@ -54,7 +56,6 @@ var foodExpenses: [Int] = []
 var entertainmentExpenses: [Int] = []
 var homeExpenses: [Int] = []
 var transportationExpenses: [Int] = []
-var destinationDirectory: URL?
 
 // Look up in the Desktop directory
 if var dir = try? FileManager.default.url(for: .desktopDirectory,
@@ -138,8 +139,7 @@ content += "=A2+B2+C2+D2"
 if let dir = destinationDirectory {
     
     do {
-        let fileName = "AllExpenses"
-        let fileURL = dir.appendingPathComponent(fileName).appendingPathExtension(fileType)
+        let fileURL = dir.appendingPathComponent(destinationFileName).appendingPathExtension(fileType)
         try content.write(to: fileURL, atomically: true, encoding: .utf8)
     } catch {
         print("Failed writing to URL: \(dir), Error: " + error.localizedDescription)
@@ -147,7 +147,6 @@ if let dir = destinationDirectory {
 } else {
     print("Can't find saving directory URL: \(String(describing: destinationDirectory))")
 }
-
 ```
 
 ## 4, Create an exceutable file
