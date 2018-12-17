@@ -9,14 +9,14 @@ Nowadays we are moving away from keeping records on papers and we are facing new
 ## 1, Create A Playground File
 
 * Open Xcode  
-* Select "Get started with a playground" or <code>File</code> -> <code>New</code> -> <code>Playground</code>
-* Select "Blank" and then tap "Next"  
+* Select <code>Get started with a playground</code> or <code>File</code> -> <code>New</code> -> <code>Playground</code>
+* Select <code>Blank</code> and then tap <code>Next</code>  
 * Rename "name_of_the_file"
-* Select the place for saving your project and then tap "Create"  
+* Select the place for saving your project and then tap <code>Create</code>  
 
 ## 2, Import Assets
 
-We need 1 folder. Please download [watch](https://github.com/iosClassForBeginner/quiz_en/blob/master/quiz_en/Assets.xcassets/watch.imageset/watch.png) and [trophy](https://github.com/iosClassForBeginner/quiz_en/blob/master/quiz_en/Assets.xcassets/trophy.imageset/trophy.png) icon from the links. You can import them to the project.
+We need 1 folder. Please download <code>scvdata</code> (https://github.com/iosClassForBeginner/scripting_en) from the link. You can clone the whole project and just use this folder. 
 
   * <details><summary>You don't know how to import them? Check this out!</summary><div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/quiz_en/blob/master/demos/tutorial/assets.gif" /></div></details>
 
