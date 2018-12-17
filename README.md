@@ -18,7 +18,7 @@ Nowadays we are moving away from keeping records on papers and we are facing new
 
 We need 1 folder. Please download <i>scvdata</i> 📁 (https://github.com/iosClassForBeginner/scripting_en) from the link. You can clone the whole project and just use this folder. 
 
-  * <details><summary>You don't know how to import them? Check this out!</summary><div style="text-align:center">https://help.github.com/articles/cloning-a-repository/</div></details>
+  * <details><summary>You don't know how to import them? Check this out!</summary><div style="text-align:center"><a href="https://help.github.com/articles/cloning-a-repository/">Click here</a> </div></details>
 
 ## 3, Massaging the data
 
